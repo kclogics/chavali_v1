@@ -19,6 +19,11 @@ p {
 
 body {
     background-color: rgb(124, 124, 208);
+     max-width: 500px;
+    max-height: 500px;
+   
+  
+    display: inline-block;
 }
 
 img {
