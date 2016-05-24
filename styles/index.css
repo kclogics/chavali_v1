@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(139, 139, 229);
+    font-size: 30px;
+    
+}
+
+h2 {
+    color: rgb(139, 139, 229);
+    padding-left: 90px;
+}
+
+p {
+    color: rgb(198, 198, 239);
+    padding-left: 50px;
+    font-family: monospace;
+    font-size: 1.5em;
+    
+}
+
+body {
+    background-color: rgb(124, 124, 208);
+}
