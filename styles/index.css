@@ -20,7 +20,7 @@ p {
 body {
     background-color: rgb(124, 124, 208);
      max-width: 500px;
-    max-height: 500px;
+    max-height: 600px;
    
   
     display: inline-block;
@@ -29,4 +29,5 @@ body {
 img {
     width: 100px;
     padding-left: 80px;
+    padding-bottom: 30px;
 }
