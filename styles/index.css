@@ -31,3 +31,28 @@ img {
     padding-bottom: 30px;
 }
 
+.copyright {
+    font-size: 7px;
+    font-weight: 900em;
+    padding-top: 50px;
+    
+}
+
+.video {
+   
+    margin: 40px;
+    
+     width: 490px;
+    height: 340px;
+    background: rgba(96, 96, 178, 0.69);
+    position: relative;
+    animation: moveit 2s linear 0s ;
+ 
+   
+}
+
+strong {
+    color: dimgrey;
+    background-color: rgb(184, 184, 216);
+    
+}
