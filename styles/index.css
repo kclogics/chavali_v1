@@ -1,3 +1,42 @@
+i{
+    color: #ffffff;
+    font-size: 20px;
+}
+q {
+    display: block;
+    color: rgb(124, 124, 208);
+    font-size: 13.5px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+.animation {
+    height:6px;
+    width: 100%;  
+    background-color: rgba(31, 97, 162, 0.49);
+    
+}
+#box {
+    height:14px;
+    width: 10px;
+    background-color: rgb(124, 124, 208);
+    transition: width 2s, height 2s, background-color  2s, transform 2s;
+   
+    
+}
+
+#box:hover {
+    
+    background-color: rgb(133, 77, 209);
+    width: 100px;
+    height: 75px;
+    background-image: url(../images/resize.jpg);
+    
+    
+   
+}
+
+
 h1 {
     color: rgb(139, 139, 229);
     font-size: 30px;
@@ -47,10 +86,15 @@ img {
     background: rgba(96, 96, 178, 0.69);
     position: relative;
     animation: moveit 2s linear 0s ;
+    
  
    
 }
 
+.video:hover {
+    background: rgba(57, 242, 13, 0.4);
+     
+}
 strong {
     color: dimgrey;
     background-color: rgb(184, 184, 216);
@@ -97,5 +141,8 @@ strong {
     background: rgba(96, 96, 178, 0.69);
     position: relative;
     animation: moveit 2s linear 0s ;
+        
     }
+    
+    
 }
