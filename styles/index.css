@@ -9,6 +9,9 @@ h2 {
     padding-left: 90px;
 }
 
+h3 {
+    color: rgb(77, 77, 82);
+}
 p {
     color: rgb(198, 198, 239);
     padding-left: 50px;
@@ -19,10 +22,6 @@ p {
 
 body {
     background-color: rgb(124, 124, 208);
-     max-width: 500px;
-    max-height: 600px;
-   
-  
     display: inline-block;
 }
 
@@ -31,3 +30,4 @@ img {
     padding-left: 80px;
     padding-bottom: 30px;
 }
+
