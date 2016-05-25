@@ -42,7 +42,7 @@ img {
    
     margin: 10px;
     
-     width: 490px;
+    width: 490px;
     height: 340px;
     background: rgba(96, 96, 178, 0.69);
     position: relative;
@@ -62,12 +62,40 @@ strong {
         width: 360px;
         height: 240px;
     }
+    .video {
+         margin: 10px;
+    
+    width: 380px;
+    height: 260px;
+    background: rgba(96, 96, 178, 0.69);
+    position: relative;
+    animation: moveit 2s linear 0s ;
+    }
 }
 
 
-@media screen and (max-width: 420px) and (min-width: 320px) {
+@media screen and (max-width: 420px) and (min-width: 250px) {
+    h1 {
+        font-size: 25px;
+    }
+    
+    h2,h3,p,img {
+        font-size: 15px;
+        margin: 5px;
+    
+    }
+    
     iframe {
-        width: 260px;
-        height: 240px;
+        width: 220px;
+        height: 220px;
+    }
+    .video {
+         margin: 10px;
+    
+    width: 240px;
+    height: 240px;
+    background: rgba(96, 96, 178, 0.69);
+    position: relative;
+    animation: moveit 2s linear 0s ;
     }
 }
