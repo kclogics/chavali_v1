@@ -36,7 +36,7 @@ q {
     background-color: rgb(255, 255, 255);
     width: 350px;
     height: 20px;
-    cue-before: url("../audio/voice.mp3.wma");
+    
     
     
     
@@ -77,8 +77,18 @@ body {
 
 img {
     width: 100px;
+    height: 100px;
     padding-left: 80px;
     padding-bottom: 30px;
+}
+
+img:hover {
+    border-radius: 75%;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    
+ 
 }
 
 .copyright {
