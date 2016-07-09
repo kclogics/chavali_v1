@@ -1,0 +1,9 @@
+#mailsbody {
+    width: 450px;
+    height: 500px;
+    background-color: rgba(233, 234, 221, 0.57);
+    position: absolute;
+    display: inline-block;
+    left: 220px;
+    top: 150px;
+}
