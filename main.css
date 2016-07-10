@@ -207,7 +207,7 @@ body {
 
 
 
-.sideoptions, .sideoptions2, .sideoptions3, .sideoptions4   {
+#sideoptions, #sideoptions2, #sideoptions3, #sideoptions4   {
     width: 100px;
     position: absolute;
     display: inline;
@@ -217,22 +217,22 @@ body {
     background-color: rgba(179, 210, 240, 0.94);
 }
 
-.sideoptions:hover {
+#sideoptions:hover {
     background-color: rgba(76, 173, 216, 0.32);
 }
 
 
-.sideoptions2:hover {
+#sideoptions2:hover {
     background-color: rgba(76, 173, 216, 0.32);
 }
 
 
-.sideoptions3:hover {
+#sideoptions3:hover {
     background-color: rgba(76, 173, 216, 0.32);
 }
 
 
-.sideoptions4:hover {
+#sideoptions4:hover {
     background-color: rgba(76, 173, 216, 0.32);
 }
 
@@ -246,18 +246,18 @@ body {
     cursor: pointer;
 }
 
-.sideoptions2{
+#sideoptions2{
     
     top: 230px;
     left: 10px;
 }
 
-.sideoptions3{
+#sideoptions3{
    
     top: 260px;
     left: 10px;
 }
-.sideoptions4{
+#sideoptions4{
    
     top: 290px;
     left: 10px;
