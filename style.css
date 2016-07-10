@@ -20,5 +20,16 @@
     
 }
 
+#videolink, #condition {
+    margin: 25px;
+    display: inline;
+    position: absolute;
+    top: 99px;
+    left: 80px;
+    
+}
 
-
+#condition {
+     left: 170px;
+    
+}
