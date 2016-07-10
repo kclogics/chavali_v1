@@ -485,7 +485,7 @@ body {
     
 }
 
-#sizo {
+#sizo, #sizo1, #sizo2, #sizo3, #sizo4, #sizo5, #sizo6, #sizo7, #sizo8 {
     width: 25px;
     padding-left: 5px;
     margin-bottom: 5px;
@@ -493,7 +493,7 @@ body {
     
 }
 
-#fontol{
+#fontol, #fontol1, #fontol2, #fontol3, #fontol4, #fontol5, #fontol6, #fontol7, #fontol8 {
     
     display: inline-block;
     position: relative;
