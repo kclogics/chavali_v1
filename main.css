@@ -507,8 +507,34 @@ body {
     
 }
 
-#fontol:hover {
-    background-color: rgba(234, 230, 212, 0.49);
+#fontol:hover{
+    background-color: rgba(250, 242, 242, 0.38);
+}
+
+#fontol1:hover{
+    background-color: rgba(250, 242, 242, 0.38);
+}
+
+#fontol2:hover{
+    background-color: rgba(250, 242, 242, 0.38);
+}
+#fontol3:hover{
+    background-color: rgba(250, 242, 242, 0.38);
+}
+#fontol4:hover{
+    background-color: rgba(250, 242, 242, 0.38);
+}
+#fontol5:hover{
+    background-color: rgba(250, 242, 242, 0.38);
+}
+#fontol6:hover{
+    background-color: rgba(250, 242, 242, 0.38);
+}
+#fontol7:hover{
+    background-color: rgba(250, 242, 242, 0.38);
+}
+#fontol8:hover{
+    background-color: rgba(250, 242, 242, 0.38);
 }
 
 #chatline{
