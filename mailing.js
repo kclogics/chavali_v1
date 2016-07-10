@@ -7,7 +7,7 @@ var displayinbox4 = document.getElementById("inside_mailsbody4");
 
 
 
-
+var refreshinboxyo = document.getElementById("box2");
 
 
 
@@ -18,7 +18,14 @@ var clickinbox4   = document.getElementById("sideoptions4");
 
 
 
-
+refreshinboxyo.onclick = function() {
+    displayinbox.style.display = "none"; 
+    displayinbox2.style.display = "none";
+    displayinbox3.style.display = "none";
+    displayinbox4.style.display = "none";
+    
+    
+}
 
 
 
