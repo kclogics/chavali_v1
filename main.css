@@ -2,9 +2,13 @@ body {
     margin: 0 auto;
 }
 
-
-.menu, .mailmeo, .emailo {
+.mail {
     display: none;
+}
+
+ .mailmeo, .emailo {
+    z-index: 600;
+     
 }
 
 .facebook, .github, .quora, .gmail, .whatsapp, .twitter {
@@ -14,6 +18,27 @@ body {
 .fname, .gitname, .qname, .gname, .wname, .tname {
     display: none;
 }
+
+
+/*----z-index ----- */
+
+.intro {
+    z-index: 500;
+}
+
+
+.allpack {
+    z-index: 100;
+}
+
+.aboutme {
+    z-index: 600;
+}
+.body {
+    z-index: 1000;
+}
+
+
 
 .nameo {
     color: rgba(0, 0, 0, 0.87);
@@ -28,6 +53,8 @@ body {
     left: 50px;
     font-size: 100px;
     
+  
+    
 }
 
 .wrap {
@@ -37,6 +64,8 @@ body {
     left: 360px;
     font-size: 25px;
     color: grey;
+ 
+    
 }
 
 .wrap2 {
@@ -104,7 +133,8 @@ body {
     border-radius: 50%;
     border-color: rgba(23, 95, 232, 0.4);
    
-   
+ 
+ 
 
     
     
@@ -121,7 +151,7 @@ body {
    position: fixed;
     height: 80px;
     background-color: #113b7e;
-    z-index: 10001;
+     
     left: 0;
     top: 0;
     width: 100%;
@@ -140,7 +170,7 @@ body {
     position: relative;
     background-color: #316ed1;
     height: 500px;
-    z-index: 1001;
+     
     
 }
 
@@ -161,6 +191,7 @@ body {
     width: 700px;
     height: 800px;
     left: 200px;
+    z-index: 600;
     
 }
 
@@ -175,7 +206,8 @@ body {
     position: relative;
    background-color: #113b7e;
     height: 800px;
-     z-index: 1001;
+    
+     
     
 }
 
@@ -189,8 +221,8 @@ body {
     font-family: Pacifico, cursive;
     font-size: 25px;
     color: white;
-      
-    z-index: 100;
+    
+    
     padding-left: 6px;
     padding-right: 8px;
   
@@ -205,6 +237,7 @@ body {
 }
 
 .mobile {
+    z-index: 600;
     display: none;
 }
 
@@ -222,7 +255,7 @@ body {
     top: 2750px;
     left: 0;
     background-color: rgb(255, 0, 206);
-    z-index: 1001;
+ 
 }
 
 .hor {
@@ -234,7 +267,7 @@ body {
     width: 2px;
     height: 100%;
     background-color: rgb(255, 255, 255);
-    z-index: 500;
+   
 }
 
 .ver {
@@ -246,7 +279,7 @@ body {
     top: 50%;
      transform: translate(-50%, -50%,);
      background-color: rgb(255, 255, 255);
-    z-index: 500;
+    
     
 }
 
@@ -258,9 +291,9 @@ body {
     width: 4px;
     border-radius: 50%;
     margin: 18.5px;
-    
+    z-index: 1000;
     background-color: #ffffff;
-    z-index: 10001;
+ 
 }
 .dot {
     position: absolute;
@@ -272,8 +305,9 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1000;
     
-    z-index: 10001;
+    
     
     
 }
@@ -356,14 +390,17 @@ body {
   
     height: 250px;
     background-color:#ffffff;
-    z-index: 10001;
+    
 }
 
 /*----------------media query 1----- max340 and min 240-----------------------------------------------------------*/
 
 
 @media only screen and (max-width: 340px) and (min-width: 240px) {
-    
+    body {
+      background-color: lightblue;
+       
+    }
     .menu {
         position: fixed;
         display: inline-block;
@@ -428,7 +465,7 @@ body {
     position: relative;
     background-color: #3c9568;
     height: 550px;
-    z-index: 10001;
+    
   
     }
     
@@ -441,7 +478,7 @@ body {
     font-size: 16px;
     color: white;
     background-color: #316ed1;
-    z-index: 100;
+    
     padding-left: 6px;
     padding-right: 8px;
   
@@ -457,7 +494,7 @@ body {
     top: 2850px;
     left: 0;
     background-color: rgb(255, 0, 206);
-    z-index: 10001;
+  
 }
 .bio {
     margin: 5%;
@@ -496,7 +533,7 @@ body {
     
     .myskills{
       position: relative;
-     z-index: 100001;
+     
     }
     
 .lapo {
@@ -541,7 +578,7 @@ body {
         width: 40px;
         height: 10px;
           
-        z-index: 1000001;
+        
         color: rgb(255, 255, 255);
         font-weight: bold;
         left: 40px;
@@ -579,7 +616,7 @@ body {
         width: 60px;
         height: 60px;
         top: 225px;
-        z-index: 1000001;
+      
         font-weight: bold;
         padding-bottom: 40px;
         left: 5px;
@@ -607,7 +644,10 @@ body {
 /*----------------media query 2----- max420 and min 340-----------------------------------------------------------*/
 
 @media only screen and (max-width: 420px) and (min-width:340px) {
-    
+    body {
+      background-color: violet;
+       
+    }
     
     .menu {
         position: absolute;
@@ -671,7 +711,7 @@ body {
     position: relative;
     background-color: #3c9568;
     height: 550px;
-    z-index: 10001;
+   
   
     }
     
@@ -684,7 +724,7 @@ body {
     font-size: 16px;
     color: white;
     background-color: #316ed1;
-    z-index: 100;
+   
     padding-left: 6px;
     padding-right: 8px;
   
@@ -700,7 +740,7 @@ body {
     top: 2850px;
     left: 0;
     background-color: rgb(255, 0, 206);
-    z-index: 10001;
+   
 }
 .bio {
     margin: 5%;
@@ -739,7 +779,7 @@ body {
     
    .myskills{
       position: relative;
-     z-index: 100001;
+     
     }
     
 .lapo {
@@ -783,7 +823,7 @@ body {
         width: 60px;
         height: 60px;
           
-        z-index: 1000001;
+       
         color: rgb(255, 255, 255);
         font-weight: bold;
         left: 90px;
@@ -820,7 +860,7 @@ body {
         width: 60px;
         height: 60px;
         top: 245px;
-        z-index: 1000001;
+      
         font-weight: bold;
         
         left: 15px;
@@ -845,7 +885,10 @@ body {
 /*-----media quer 3-----max520 and min359------*/
 
 @media only screen and (max-width: 520px) and (min-width:420px) {
-    
+    body {
+      background-color: indigo;
+       
+    }
     
     .menu {
         position: absolute;
@@ -909,7 +952,7 @@ body {
     position: relative;
     background-color: #3c9568;
     height: 550px;
-    z-index: 10001;
+  
   
     }
     
@@ -922,7 +965,7 @@ body {
     font-size: 16px;
     color: white;
     background-color: #316ed1;
-    z-index: 100;
+ 
     padding-left: 6px;
     padding-right: 8px;
   
@@ -938,7 +981,7 @@ body {
     top: 2850px;
     left: 0;
     background-color: rgb(255, 0, 206);
-    z-index: 10001;
+   
 }
 .bio {
     margin: 5%;
@@ -977,7 +1020,7 @@ body {
    
     .myskills{
       position: relative;
-     z-index: 100001;
+    
     }
     
 .lapo {
@@ -1024,7 +1067,7 @@ body {
         width: 60px;
         height: 60px;
           
-        z-index: 1000001;
+    
         color: rgb(255, 255, 255);
         font-weight: bold;
         left: 90px;
@@ -1059,7 +1102,7 @@ body {
         width: 60px;
         height: 60px;
         top: 245px;
-        z-index: 1000001;
+      
         font-weight: bold;
         
         left: 15px;
@@ -1089,16 +1132,22 @@ body {
 /*.....4    ..580px--max580 and min 512----  */
 
 @media only screen and (max-width: 580px)and (min-width:521px) {
-    
+    body{
+        background-color: blue;
+    }
         
+    .menu {
+        display: none;
+    }
+    .mailmeo, .emailo {
+        display: none;
+    }
     
     .profile {
-        position: absolute;
-        display: inline-block;
-        left: 35%;
-        top: 90px;
-        width: 100px;
+       display: none;
+        
     }
+   
     
      
     .about,.skills, .strength{
@@ -1177,7 +1226,8 @@ body {
     
    .myskills{
       position: relative;
-     z-index: 100001;
+       z-index: 600;
+  
     }
     
 .lapo {
@@ -1194,6 +1244,7 @@ body {
         display: inline-block;
         top: 80px;
         left: 130px;
+          z-index: 600;
     }
     .tablet {
         position: absolute;
@@ -1202,6 +1253,10 @@ body {
         
         left: 10px;
         top: 260px;
+        z-index: 600;
+    }
+    .contactme {
+        z-index: 600;
     }
     
     
@@ -1221,17 +1276,19 @@ body {
 /*---5  -- media quer max640---min581*/
 
 @media only screen and (max-width: 640px)and (min-width:581px) {
-    
-   
-    
-    .profile {
-        position: absolute;
-        display: inline-block;
-        left: 5%;
-        top: 25px;
-        width: 100px;
+    body{
+        background-color: green;
     }
-    
+    .menu {
+        display: none;
+    }
+   
+    .intro .profile {
+        display: none;
+    }
+    .mailmeo, .emailo  {
+        display: none;
+    }
      
     .about,.skills, .strength{
         position: relative;
@@ -1268,6 +1325,7 @@ body {
         
     }
     
+   
     .nameo {
         position: relative;
         left: 2px;
@@ -1276,7 +1334,9 @@ body {
         color: white;
         
         
+        
     }
+    
     
     .hi{
         font-size: 40px;
@@ -1321,7 +1381,7 @@ body {
         left: 35%;
         top: 90px;
         width: 100px;
-        z-index: 10001;
+       
     }
     
      
@@ -1374,7 +1434,9 @@ body {
     
     .myskills{
       position: relative;
-     z-index: 100001;
+        z-index: 600;
+        
+     
     }
     
 .lapo {
@@ -1383,6 +1445,7 @@ body {
     width: 560px;
     height: 800px;
    left: 1px;
+   
      
     
 }
@@ -1416,7 +1479,16 @@ body {
 
 
 @media only screen and (max-width: 740px)and (min-width:641px) {
+    body{
+        background-color: orange;
+    }
     
+    .menu ,.mailmeo, .emailo{
+        display: none;
+    }
+    .intro {
+        
+    }
     .profile {
         width: 90px;
     }
@@ -1469,6 +1541,11 @@ body {
         color: white;
     }
     
+    .myskills {
+        position: relative;
+        z-index: 600;
+    }
+    
     .lapo {
     position: relative;
     display: inline;
@@ -1477,6 +1554,12 @@ body {
     left: 40px;
     
 }
+    .contactme{
+        position: relative;
+        z-index: 600;
+        
+    }
+    
     .hey {
         position: absolute;
         display: inline-block;
@@ -1497,6 +1580,17 @@ body {
 
 /*--7    --max840 and min741------*/
 @media only screen and (max-width: 840px)and (min-width:741px) {
+    body{
+        background-color: red;
+    }
+    
+    .mailmeo, .emailo {
+        display: none;
+    }
+    
+    .menu {
+        display: none;
+    }
     
     .profile{
         top: 35px;
@@ -1537,6 +1631,11 @@ body {
         color: white;
     }
     
+    .myskills {
+        position: relative;
+        z-index: 600;
+    }
+    
     .lapo {
     position: relative;
     display: inline;
@@ -1565,8 +1664,15 @@ body {
 /*--8    max1260 and min 841*/
 
 @media only screen and (max-width: 1260px)and (min-width:841px) {
-    
-    
+    body{
+        background-color: black;
+    }
+    .mailmeo, .emailo {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
     .profile{
         width: 110px;
     }
@@ -1633,8 +1739,16 @@ body {
 
 /*--9   max 1261*/
 @media only screen and (min-width: 1261px)  {
+    body{
+        background-color: darkblue;
+    }
     
-    
+    .mailmeo, .emailo {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
    
     .hey {
         position: absolute;
@@ -1698,7 +1812,7 @@ body {
         width: 60px;
         height: 60px;
         background-color: rgba(255, 0, 0, 0);
-        z-index: 1000001;
+     
         cursor: pointer;
     }
     
@@ -1715,7 +1829,7 @@ body {
         width: 60px;
         height: 60px;
         top: 300px;
-        z-index: 1000001;
+        
         background-color: rgba(0, 128, 0, 0);
         left: 200px;
         cursor: pointer;
