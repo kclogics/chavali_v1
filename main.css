@@ -1,567 +1,1754 @@
-
-/*--------gmail talkies------------------*/
-
-
-
-
-
-
-
-
-
-#poop {
-    display: none;
-    position: fixed; 
-    width: 100%;
-    height: 100%;
-    
-    
-    
-}
-
-
-
-
-.poop-content {
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    display: inline-block;
-   bottom: 500px;
-    width: 150px;
-    height: 122px;   
-}
-
-.poop-content2 {
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    display: inline-block;
-   bottom: 300px;
-    width: 150px;
-    height: 122px;   
-}
-
- 
-    
-
-
-#arrowdown3 {
-    width: 10px;
-    position: absolute;
-    left: 50px;
-    top:20px;
-}
-
-#lgmal, #lcontacts, #ltasks {
-  
-    position: relative;
-   display: block;
- 
-    margin-bottom: 15px;
-    cursor: pointer;
-    top: 12px;
-    left: 50px;
-    
-}
-
-#hoverbox1  {
-     position: relative;
-        display: inline-block;
-        width: 150px;
-        height: 28px;
-     background-color: rgba(255, 255, 255, 0);
-     bottom: 95px;
-    
-    cursor: pointer;
-            
-}
-
-#hoverbox2 {
-        position: relative;
-        display: block;
-        width: 150px;
-        height: 28px;
-        bottom: 95px;
-        background-color: rgba(230, 34, 34, 0);
-        cursor: pointer;
-            
-}
-
-#hoverbox3 {
-    position: relative;
-        display: inline-block;
-        width: 150px;
-        height: 28px;
-        bottom: 85px;
-        background-color: rgba(185, 33, 33, 0);
-        cursor: pointer;
-            
-}
-
-#hoverbox1:hover {
-     background-color:  rgba(179, 210, 240, 0.35);
-}
-#hoverbox2:hover {
-     background-color:   rgba(179, 210, 240, 0.35);;
-}
-#hoverbox3:hover {
-     background-color:  rgba(179, 210, 240, 0.35);
-}
-
-
-
-
-
-
-
-
-/*------------ends-------------------*/
-
-
-
-
 body {
-    background-color: rgba(179, 210, 240, 0.94);
+    margin: 0 auto;
 }
 
-#morealpha {
-    display: inline;
-    right: 4px;
+
+.menu, .mailmeo, .emailo {
+    display: none;
+}
+
+.facebook, .github, .quora, .gmail, .whatsapp, .twitter {
+    display: none;
+}
+
+.fname, .gitname, .qname, .gname, .wname, .tname {
+    display: none;
+}
+
+.nameo {
+    color: rgba(0, 0, 0, 0.87);
     position: absolute;
+    top: 10px;
+    left: 490px;
+    font-family: Pacifico, cursive;
+    margin-right: 30px;
+}
+.hi {
+     
+    left: 50px;
+    font-size: 100px;
+    
 }
 
-#compose{
-    display: inline;
+.wrap {
+    position: absolute;
+    font-family: Pacifico, cursive;
+    top: 280px;
+    left: 360px;
+    font-size: 25px;
+    color: grey;
+}
+
+.wrap2 {
+        padding-top: 2%;
+        font-size: 1300px;
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 300px;
+        font-size: 25px;
+        color: white;
+    padding-left: 25%;
+   
+    }
+
+ .krishna, .next, .next1 {
+     
+}
+
+
+.about, .skills, .strength{
     position: relative;
-    left: 8px;
-    top: 4px;
-    font-size: 12px;
-    cursor: default;
-    
-    
-    
-}
-.toolo {
-    width: 10px;
-    display: inline;
-    position: absolute;
-    left: 194px;
-    top: 5px;
-    
-}
-
-.rectan{
-    background-color: rgba(73, 35, 232, 0.76);
-     width: 40px;
-    height: 20px;
-    position: absolute;
-    top: 1px;
-    left: 180px;
-    
-}
-
-    
-    
-
-
-
-.box, #box2, .box3 {
-    width: 80px;
-    height: 30px;
-    position: relative;
-     left: 180px;
-    bottom: 7px;
-    background-color: rgba(214, 224, 214, 0.76);
     display: inline-block;
-}
-
-#box2{
-       left: 190px;
+    top: -5px;
+    left: 25%;
+    margin-right: 90px;
+    font-size: 25px;
+    color: white;
+    border:  white;
+    border-style: outset;
+    border-width: thick;
+    border-radius: 5em;
+    opacity: 0.6;
+    padding: 5px;
     cursor: pointer;
 }
-
-
-.box3, .firstbox{
-       left: 200px;
+ .about:hover {
+     background: rgba(255, 255, 255, 0.62);
+     opacity: 1.5;
+}
+ .skills:hover { 
+     background: rgba(255, 255, 255, 0.62);
+     opacity: 1.5;
+}
+ .strength:hover { 
+     background: rgba(255, 255, 255, 0.62);
+     opacity: 1.5;
 }
 
-.box4{
-     
-    width: 80px;
-    height: 30px;
-    position: absolute;
-    right: 40px;
-    top: 82px;
-    background-color: rgba(214, 224, 214, 0.76);
-     
-}
 
-#box5{
-    width: 80px;
-    height: 30px;
-    background-color: rgba(214, 224, 214, 0.76);
-    position: absolute;
-    top: 150px;
-    left: 21px;
+ .allpack, .aboutme, .myskills, .education, .mystrengths {
+    
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200px;
+}
+.profile {
+    position: fixed;
+    display: inline-block;
+    width: 150px;
+    left: 15px;
+    top: 15px;
+    border: dashed;
+    border-radius: 50%;
+    border-color: rgba(23, 95, 232, 0.4);
+   
+   
+
+    
     
 }
 
 
 
 
-#sideoptions, #sideoptions2, #sideoptions3, #sideoptions4   {
-    width: 100px;
-    position: absolute;
-    display: inline;
-    top: 200px;
-    left: 10px;
-    height: 20px;
-    background-color: rgba(179, 210, 240, 0.94);
+
+
+
+
+.intro {
+   position: fixed;
+    height: 80px;
+    background-color: #113b7e;
+    z-index: 10001;
+    left: 0;
+    top: 0;
+    width: 100%;
+ 
+    
+ 
 }
-
-#sideoptions:hover {
-    background-color: rgba(76, 173, 216, 0.32);
-}
-
-
-#sideoptions2:hover {
-    background-color: rgba(76, 173, 216, 0.32);
-}
-
-
-#sideoptions3:hover {
-    background-color: rgba(76, 173, 216, 0.32);
-}
-
-
-#sideoptions4:hover {
-    background-color: rgba(76, 173, 216, 0.32);
+.allpack {
+    
+    height: 500px;
+    
 }
 
 
-
-#inboxoption, #inboxoption2, #inboxoption3, #inboxoption4   {
-
+.aboutme {
     position: relative;
-    display: inline;
-    left: 24px;
-    cursor: pointer;
-}
-
-#sideoptions2{
-    
-    top: 230px;
-    left: 10px;
-}
-
-#sideoptions3{
-   
-    top: 260px;
-    left: 10px;
-}
-#sideoptions4{
-   
-    top: 290px;
-    left: 10px;
-   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#google, .search, #alaram, #mypic, #selectbox, #gmail, #refresh, #more  {
-    display: inline;
-}
-
-.search, #alaram, #mypic,  #blockyo, #line2, #settingsicon, #arrowdown ,  p {
-    position: absolute;
-}
-
-#gmail, #selectbox, #refresh, #more  {
-    position: relative;
-}
-
-
-.search {
-    
-    top: 25px;
-    left: 188px
+    background-color: #316ed1;
+    height: 500px;
+    z-index: 1001;
     
 }
 
-#alaram, #blockyo{
-    width: 20px;
-    right: 90px;
-    top: 29px;
-}
-#blockyo {
-    right: 130px;
-}
-
-#mypic{
-    top: 23px;
-    right: 45px;
-    width: 29px;
-}
-
-#line, #line2 {
-      background-color: rgba(132, 164, 216, 0.48);
-     color: black;
-        width:100%;
-}
-
-#line {
-  
-      height: 1px;
-}
-
-#line2 {
-      height: 1px;
-      top: 130px;
-}
+ 
  
 
-#gmail {
-    left: 13px;
-    font-family: sans-serif;  
-    cursor: pointer;
+
+
+
+.myskills {
+    background-color: white;
+    height: 700px;
 }
 
-
-#selectbox, #refresh, #more  {
-    top: 15px;
-}
-
-
-#selectbox {
-    left: 190px;    
-}
-
-#refresh {
-    left: 268px;
-      
-}
-
-#more {
-    left: 340px;
-}
-#settingsicon {
-    width: 20px;
-    right: 90px;
-    top: 86px;
-    
-}
-
-#refreshtool {
-    width: 18px;
-    position: relative;
-   
-    top: 3px;
-        
-}
-
-#rectangle {
-    width: 25px;
-    position: relative;
-    left: 18px;
-    top: 3px;
-    
-}
-
-#arrowdown  {
-    width: 10px;
-    right: 65px;
-    top: 96px;
-}
-
-
-
-#arrowdown1, #arrowdown2 {
-    width: 10px;
+.lapo {
     position: relative;
     display: inline;
-    left: 20px;
-      }
-
-
-#arrowdown3 {
-    width: 10px;
-    position: absolute;
-    left: 50px;
-    top:20px;
+    width: 700px;
+    height: 800px;
+    left: 200px;
+    
 }
 
 
-#backy {
+
+
+
+
+
+
+.contactme{
+    position: relative;
+   background-color: #113b7e;
+    height: 800px;
+     z-index: 1001;
+    
+}
+
+
+
+ .hey {
+    position: relative;
+    display: inline-block;
+    left: 270px;
+    top: 150px;
+    font-family: Pacifico, cursive;
+    font-size: 25px;
+    color: white;
+      
+    z-index: 100;
+    padding-left: 6px;
+    padding-right: 8px;
   
+}
+
+.pc {
     display: none;
+}
+
+.tablet {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Z-index--------------   */
+
+
+
+.body {
+    position: absolute;
+    
+    
+    width: 100%;
+    height: 900px;
+
+    top: 2750px;
+    left: 0;
+    background-color: rgb(255, 0, 206);
+    z-index: 1001;
+}
+
+.hor {
+    display: inline;
+    left: 50%;
+    transform: translate(-50%, -50%,);
+    position: absolute;
+    display: inline;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 500;
+}
+
+.ver {
+    display: inline;
+    position: absolute;;
+    
     width: 100%;
     height: 2px;
-    position: absolute;
-    bottom: 2px;
-    height: 500px;
+    top: 50%;
+     transform: translate(-50%, -50%,);
+     background-color: rgb(255, 255, 255);
+    z-index: 500;
+    
 }
 
-#compose_popup {
+
+.particle {
+    position: relative;
+    display: inline-block;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    margin: 18.5px;
+    
+    background-color: #ffffff;
+    z-index: 10001;
+}
+.dot {
+    position: absolute;
+    display: inline;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: dotted;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 10001;
+    
+    
+}
+
+
+
+.topleft {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(215, 39, 222, 0.56);
+    cursor: pointer;
     
    
+}
+
+
+.topright {
+    position: absolute;
+    top: 0;
     right: 0;
-    margin: 16px;
-    display: inline;
-    position: absolute;
-    width: 400px;
-    height: 415px;
-    background-color: #e2f1f7;
-    bottom: 5px;
-    
-    
-}
-
-.close66 {
-    float: right;
-    margin: 10px;
-    font-size: 30px;
+    width: 50%;
+    height: 50%;
+    background-color: darkorange;
     cursor: pointer;
-}
-
-.close66:hover
-{
-     color: green;
-}
-
-#sendoptioninpopup {
-
-         
-      display: block;
-      width: 40px;
-      height: 25px;
-      padding-left: 7px;
-      padding-top: 1px;
-      margin-top: 385px;
-      margin-left: 10px;
-     
-     background-color: #c6c6d6;
-    
-    
-}
-
-#sendoptioninpopup:hover {
-    background-color: rgba(32, 32, 232, 0.54);
     
 }
 
 
-#krishprofile{
-    width: 70px;
-    height: 40px;
-   display: block;
+
+.bottomleft {
     position: absolute;
-    bottom: 330px;
-     
-}
-
-#profiles {
-    width: 170px;
-    height: 300px;
-    display: block;
-    margin-top: 213px;
-  
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: darkkhaki;
+    cursor: pointer;
     
 }
 
-#sizo, #sizo1, #sizo2, #sizo3, #sizo4, #sizo5, #sizo6, #sizo7, #sizo8 {
-    width: 25px;
-    padding-left: 5px;
-    margin-bottom: 5px;
 
-    
+
+.bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background-color: darkslateblue;
+    cursor: pointer;
+   
+}
+.bio {
+    margin: 35%;
+    font-size: 40px;
+    color: white;
+}
+.bio1{
+    margin: 35%;
+    font-size: 40px;
+    color: white;
+}
+.bio2{
+    margin: 35%;
+    font-size: 40px;
+    color: white;
+}
+.bio3{
+    margin: 35%;
+    font-size: 40px;
+    color: white;
 }
 
-#fontol, #fontol1, #fontol2, #fontol3, #fontol4, #fontol5, #fontol6, #fontol7, #fontol8 {
-    
-    display: inline-block;
+.mouseover{
     position: relative;
-    font-size: 13px;
-    bottom: 14px;
-    left: 8px;
-    font-family: sans-serif;
-    font-weight: 500;
-    cursor: pointer;
+  
+    height: 250px;
+    background-color:#ffffff;
+    z-index: 10001;
+}
+
+/*----------------media query 1----- max340 and min 240-----------------------------------------------------------*/
+
+
+@media only screen and (max-width: 340px) and (min-width: 240px) {
+    body {
+      background-color: lightblue;
+       
+    }
+    .menu {
+        position: fixed;
+        display: inline-block;
+        width: 50px;
+        top: 10px;
+        left: 5%;
+        cursor: pointer;
+        
+    }
+    
+    .about, .skills, .strength,   .lapo, .hey, .mail , .cover{
+        display: none;
+    }
+    
+    
+    .profile {
+        position: absolute;
+        
+        left: 35%;
+        width: 100px;
+        
+    } 
+    
+    .nameo {
+        position: relative;
+        left: 20px;
+        top: 150px;
+        margin-left: 5%;
+        
+    }
+    
+    .hi{
+        font-size: 30px;
+       font-family: Pacifico, cursive;
+    }
+    
+    .wrap {
+    position: relative;
+    font-family: Pacifico, cursive;
+    top: 130px;
+    left: 20px;
+    font-size: 15px;
+    color: grey;
+    margin-left: 3px;
+    margin-right: 20px;
+    }
+    
+    
+    .wrap2 {
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+        color: white;
+        
+    }
+    
+   
+    
+    
+.aboutme {
+    position: relative;
+    background-color: #3c9568;
+    height: 550px;
+    z-index: 10001;
+  
+    }
+    
+    .mail, .hey {
+    position: relative;
+    display: inline-block;
+    left: 40px;
+    top: 10px;
+    font-family: Pacifico, cursive;
+    font-size: 16px;
+    color: white;
+    background-color: #316ed1;
+    z-index: 100;
+    padding-left: 6px;
+    padding-right: 8px;
+  
+}
+   
+   .body {
+    position: absolute;
+    
+    
+    width: 100%;
+    height: 900px;
+
+    top: 2850px;
+    left: 0;
+    background-color: rgb(255, 0, 206);
+    z-index: 10001;
+}
+.bio {
+    margin: 5%;
+      
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding-top: 350px;
+    padding-left: 54px;
+}
+.bio1 {
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding-top: 350px;
+    padding-left: 24px;
+}
+.bio2 {
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.bio3{
+    
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    padding-left: 24px;
+    padding-top: 10px;
+}
+    
+    .myskills{
+      position: relative;
+     z-index: 100001;
+    }
+    
+.lapo {
+    position: relative;
+    display: inline;
+    width: 230px;
+    height: 400px;
+   left: 1px;
+     
+    
+} 
+    .hey {
+        position: absolute;
+        display: inline-block;
+        top: 40px;
+        left: 40px;
+    }
+    
+    .mailmeo, .emailo {
+        position: absolute;
+        display: inline-block;
+        top: 90px;
+        left: 40px;
+        color: white;
+        
+    }
+    .mailmeo {
+        font-family: sans-serif;
+        text-decoration: underline;
+    }
+    
+    .emailo {
+        top: 120px;
+    }
+    
+    
+    
+    .fname, .gitname, .qname {
+        position: relative;
+        display: inline-block;;
+        
+        width: 40px;
+        height: 10px;
+          
+        z-index: 1000001;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        left: 40px;
+         top: 160px;
+        cursor: pointer;
+       
+       
+    }
+    .fname {
+        top: 230px;
+        padding-bottom: 45px;
+        
+    }
+    
+    .gitname {
+        top: 300px;
+        left: 5px;
+        padding-bottom: 30px;
+    }
+    
+    .qname {
+        top: 405px;
+        left: -40px;
+        padding-bottom: 35px;
+    }
+    
+    
+    .gname{
+        
+        position: relative;
+        display: inline;
+       color: rgb(255, 255, 255);
+        
+        
+        width: 60px;
+        height: 60px;
+        top: 225px;
+        z-index: 1000001;
+        font-weight: bold;
+        padding-bottom: 40px;
+        left: 5px;
+        cursor: pointer;
+         
+    }
+   
+    
+    
+    .mobile {
+        position: absolute;
+        display: inline-block;
+        width: 190px;
+        top: 190px;
+        left: 20px;
+    }
     
     
 }
 
-#fontol:hover{
-    background-color: rgba(250, 242, 242, 0.38);
+
+
+
+
+/*----------------media query 2----- max420 and min 340-----------------------------------------------------------*/
+
+@media only screen and (max-width: 420px) and (min-width:340px) {
+    body {
+      background-color: violet;
+       
+    }
+    
+    .menu {
+        position: absolute;
+        display: inline-block;
+        width: 50px;
+        top: 10px;
+        left: 5%;
+        cursor: pointer;
+    }
+    
+    .about, .skills, .strength,   .lapo, .hey, .mail , .cover{
+        display: none;
+    }
+    
+    
+    .profile {
+        position: absolute;
+        
+        left: 35%;
+        width: 100px;
+        
+    } 
+    
+    .nameo {
+        position: relative;
+        left: 20px;
+        top: 150px;
+        margin-left: 5%;
+        
+    }
+    
+    .hi{
+        font-size: 30px;
+       font-family: Pacifico, cursive;
+    }
+    
+    .wrap {
+    position: relative;
+    font-family: Pacifico, cursive;
+    top: 130px;
+    left: 20px;
+    font-size: 15px;
+    color: grey;
+    margin-left: 3px;
+    margin-right: 20px;
+    }
+    
+    
+    .wrap2 {
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        color: white;
+    }
+    
+   
+    
+    
+.aboutme {
+    position: relative;
+    background-color: #3c9568;
+    height: 550px;
+    z-index: 10001;
+  
+    }
+    
+    .mail, .hey {
+    position: relative;
+    display: inline-block;
+    left: 40px;
+    top: 10px;
+    font-family: Pacifico, cursive;
+    font-size: 16px;
+    color: white;
+    background-color: #316ed1;
+    z-index: 100;
+    padding-left: 6px;
+    padding-right: 8px;
+  
+}
+   
+   .body {
+    position: absolute;
+    
+    
+    width: 100%;
+    height: 900px;
+
+    top: 2850px;
+    left: 0;
+    background-color: rgb(255, 0, 206);
+    z-index: 10001;
+}
+.bio {
+    margin: 5%;
+      
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding-top: 350px;
+    padding-left: 54px;
+}
+.bio1 {
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding-top: 350px;
+    padding-left: 24px;
+}
+.bio2 {
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.bio3{
+    
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    padding-left: 24px;
+    padding-top: 10px;
+}
+    
+   .myskills{
+      position: relative;
+     z-index: 100001;
+    }
+    
+.lapo {
+    position: relative;
+    display: inline;
+    width: 325px;
+    height: 500px;
+   left: 1px;
+     
+    
+} 
+      .hey {
+        position: absolute;
+        display: inline-block;
+        top: 40px;
+        left: 90px;
+    }
+    
+    .mailmeo, .emailo {
+        position: absolute;
+        display: inline-block;
+        top: 90px;
+        left: 90px;
+        color: white;
+        
+    }
+    .mailmeo {
+        font-family: sans-serif;
+        text-decoration: underline;
+    }
+    
+    .emailo {
+        top: 120px;
+    }
+    
+    
+    .fname, .gitname, .qname {
+        position: relative;
+        display: inline-block;;
+        
+        width: 60px;
+        height: 60px;
+          
+        z-index: 1000001;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        left: 90px;
+         top: 260px;
+        cursor: poiter;
+       
+       
+    }
+    .fname {
+        top: 245px;
+        padding-bottom: 15px;
+    }
+    
+    .gitname {
+        top: 340px;
+        left: 25px;
+        padding-bottom: 30px;
+    }
+    
+    .qname {
+        top: 455px;
+        left: -40px;
+        padding-bottom: 35px;
+    }
+    
+    
+    .gname{
+        
+        position: relative;
+        display: inline;
+       color: rgb(255, 255, 255);
+        
+        
+        width: 60px;
+        height: 60px;
+        top: 245px;
+        z-index: 1000001;
+        font-weight: bold;
+        
+        left: 15px;
+        cursor: pointer;
+         
+    }
+   
+    
+   
+    
+    .mobile {
+        position: absolute;
+        display: inline-block;
+        width: 240px;
+        top: 190px;
+        left: 50px;
+    }
+    
 }
 
-#fontol1:hover{
-    background-color: rgba(250, 242, 242, 0.38);
+
+/*-----media quer 3-----max520 and min359------*/
+
+@media only screen and (max-width: 520px) and (min-width:420px) {
+    body {
+      background-color: indigo;
+       
+    }
+    
+    .menu {
+        position: absolute;
+        display: inline-block;
+        width: 50px;
+        top: 10px;
+        left: 5%;
+        cursor: pointer;
+    }
+    
+    .about, .skills, .strength,   .lapo, .hey, .mail , .cover{
+        display: none;
+    }
+    
+    
+    .profile {
+        position: absolute;
+        
+        left: 35%;
+        width: 100px;
+        
+    } 
+    
+    .nameo {
+        position: relative;
+        left: 20px;
+        top: 150px;
+        margin-left: 5%;
+        
+    }
+    
+    .hi{
+        font-size: 30px;
+       font-family: Pacifico, cursive;
+    }
+    
+    .wrap {
+    position: relative;
+    font-family: Pacifico, cursive;
+    top: 130px;
+    left: 20px;
+    font-size: 15px;
+    color: grey;
+    margin-left: 3px;
+    margin-right: 20px;
+    }
+    
+    
+    .wrap2 {
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    
+   
+    
+    
+.aboutme {
+    position: relative;
+    background-color: #3c9568;
+    height: 550px;
+    z-index: 10001;
+  
+    }
+    
+    .mail, .hey {
+    position: relative;
+    display: inline-block;
+    left: 40px;
+    top: 10px;
+    font-family: Pacifico, cursive;
+    font-size: 16px;
+    color: white;
+    background-color: #316ed1;
+    z-index: 100;
+    padding-left: 6px;
+    padding-right: 8px;
+  
+}
+   
+   .body {
+    position: absolute;
+    
+    
+    width: 100%;
+    height: 900px;
+
+    top: 2850px;
+    left: 0;
+    background-color: rgb(255, 0, 206);
+    z-index: 10001;
+}
+.bio {
+    margin: 5%;
+      
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding-top: 350px;
+    padding-left: 54px;
+}
+.bio1 {
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding-top: 350px;
+    padding-left: 24px;
+}
+.bio2 {
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.bio3{
+    
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    padding-left: 24px;
+    padding-top: 10px;
+}
+   
+    .myskills{
+      position: relative;
+     z-index: 100001;
+    }
+    
+.lapo {
+    position: relative;
+    display: inline;
+    width: 400px;
+    height: 500px;
+   left: 1px;
+     
+    
+}
+    
+      .hey {
+        position: absolute;
+        display: inline-block;
+        top: 40px;
+        left: 80px;
+    }
+    .mailmeo, .emailo {
+        position: absolute;
+        display: inline-block;
+        top: 90px;
+        left: 80px;
+        color: white;
+        
+    }
+    .mailmeo {
+        font-family: sans-serif;
+        text-decoration: underline;
+    }
+    
+    .emailo {
+        top: 120px;
+    }
+    
+    .fname, .gitname, .qname, .gname, .wname, .tname {
+    
+}
+    
+    .fname, .gitname, .qname {
+        position: relative;
+        display: inline-block;;
+        
+        width: 60px;
+        height: 60px;
+          
+        z-index: 1000001;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        left: 90px;
+         top: 260px;
+        cursor: pointer;
+       
+       
+    }
+    .fname {
+        top: 245px;
+        padding-bottom: 15px;
+    }
+    
+    .gitname {
+        top: 340px;
+        left: 25px;
+        padding-bottom: 30px;
+    }
+    
+    .qname {
+        top: 455px;
+        left: -40px;
+        padding-bottom: 35px;
+    }
+    
+    
+    .gname, .wname{
+        
+        position: relative;
+        display: inline-block;
+       color: rgb(255, 255, 255);
+        width: 60px;
+        height: 60px;
+        top: 245px;
+        z-index: 1000001;
+        font-weight: bold;
+        
+        left: 15px;
+        cursor: pointer;
+         
+    }
+    .wname {
+        top: 340px;
+        left: -80px;
+        width: 120px;
+        height: 90px;
+    }
+    
+   
+    
+    
+    
+    .mobile {
+        position: absolute;
+        display: inline-block;
+        width: 260px;
+        top: 180px;
+        left: 50px;
+    }
 }
 
-#fontol2:hover{
-    background-color: rgba(250, 242, 242, 0.38);
+/*.....4    ..580px--max580 and min 512----  */
+
+@media only screen and (max-width: 580px)and (min-width:521px) {
+    body{
+        background-color: blue;
+    }
+        
+    
+    .profile {
+        position: absolute;
+        display: inline-block;
+        left: 35%;
+        top: 90px;
+        width: 100px;
+    }
+    
+     
+    .about,.skills, .strength{
+        position: relative;
+        display: inline;
+        color: white;
+        border:  white;
+        border-style: outset;
+        
+        border-radius: 2em;
+        padding: 3px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    
+    .about  {
+        top: 25px;
+        left: 5%;
+        
+       
+        
+    }
+    .skills {
+        
+        top: 25px;
+        left: -0.5%;
+        
+    }
+    
+    .strength {
+       
+        left: 60px;
+        margin-left: 60%;
+        
+        
+    }
+    
+    .nameo {
+        position: relative;
+        left: 2px;
+        top: 120px;
+        margin-left: 5%;
+        color: white;
+        
+        
+    }
+    
+    .hi{
+        font-size: 40px;
+       font-family: Pacifico, cursive;
+        color: white;
+       
+    }
+    
+    .wrap {
+    position: relative;
+    font-family: Pacifico, cursive;
+    top: 110px;
+    left: 20px;
+    font-size: 23px;
+    color: grey;
+    margin-left: 3px;
+    margin-right: 20px;
+    }
+    
+   
+    
+    
+    .wrap2 {
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    
+   .myskills{
+      position: relative;
+     z-index: 100001;
+    }
+    
+.lapo {
+    position: relative;
+    display: inline;
+    width: 480px;
+    height: 700px;
+   left: 1px;
+     
+    
 }
-#fontol3:hover{
-    background-color: rgba(250, 242, 242, 0.38);
-}
-#fontol4:hover{
-    background-color: rgba(250, 242, 242, 0.38);
-}
-#fontol5:hover{
-    background-color: rgba(250, 242, 242, 0.38);
-}
-#fontol6:hover{
-    background-color: rgba(250, 242, 242, 0.38);
-}
-#fontol7:hover{
-    background-color: rgba(250, 242, 242, 0.38);
-}
-#fontol8:hover{
-    background-color: rgba(250, 242, 242, 0.38);
+      .hey {
+        position: absolute;
+        display: inline-block;
+        top: 80px;
+        left: 130px;
+    }
+    .tablet {
+        position: absolute;
+        display: inline-block;
+        width: 480px;
+        
+        left: 10px;
+        top: 260px;
+    }
+    
+    
 }
 
-#chatline{
 
-  width: 120px;
-    height: 2px;
-    background-color: rgba(31, 35, 38, 0.33);
+
+
+
+
+
+
+
+
+
+
+/*---5  -- media quer max640---min581*/
+
+@media only screen and (max-width: 640px)and (min-width:581px) {
+    body{
+        background-color: green;
+    }
+   
+    
+    .profile {
+        position: absolute;
+        display: inline-block;
+        left: 5%;
+        top: 25px;
+        width: 100px;
+    }
+    
+     
+    .about,.skills, .strength{
+        position: relative;
+        display: inline;
+        color: white;
+        border:  white;
+        border-style: outset;
+        
+        border-radius: 2em;
+        padding: 3px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .about  {
+        top: 25px;
+        left: 25%;
+        
+       
+        
+    }
+    .skills {
+        
+        top: 25px;
+        left: 15%;
+        
+    }
+    
+    .strength {
+        top: 2px;
+        left: 60px;
+        margin-left: 60%;
+        
+        
+    }
+    
+    .nameo {
+        position: relative;
+        left: 2px;
+        top: 120px;
+        margin-left: 5%;
+        color: white;
+        
+        
+    }
+    
+    .hi{
+        font-size: 40px;
+       font-family: Pacifico, cursive;
+        color: white;
+       
+    }
+    
+    .wrap {
+    position: relative;
+    font-family: Pacifico, cursive;
+    top: 110px;
+    left: 20px;
+    font-size: 23px;
+    color: grey;
+    margin-left: 3px;
+    margin-right: 20px;
+    }
+    
+   
+    
+    
+    .wrap2 {
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    
   
     
+   
+    
+    
+    
+    
+    .profile {
+        position: absolute;
+        display: inline-block;
+        left: 35%;
+        top: 90px;
+        width: 100px;
+        z-index: 10001;
+    }
+    
+     
+    .about,.skills, .strength{
+        position: relative;
+        display: inline;
+        color: white;
+        border:  white;
+        border-style: outset;
+        
+        border-radius: 2em;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    
+    .about  {
+        top: 25px;
+        left: 5%;
+        
+       
+        
+    }
+    .skills {
+        
+        top: 25px;
+        left: -0.5%;
+        
+    }
+    
+    .strength {
+       top: -4px;
+        left: 60px;
+        margin-left: 60%;
+        
+        
+    }
+    
+    .nameo {
+        position: relative;
+        left: 2px;
+        top: 120px;
+        margin-left: 5%;
+        color: white;
+        
+        
+    }
+    
+    
+    
+    .myskills{
+      position: relative;
+     z-index: 100001;
+    }
+    
+.lapo {
+    position: relative;
+    display: inline;
+    width: 560px;
+    height: 800px;
+   left: 1px;
+     
+    
+}
+    .hey {
+        position: absolute;
+        display: inline-block;
+        top: 40px;
+        left: 140px;
+    }
+    .tablet {
+        position: absolute;
+        display: inline-block;
+        width: 540px;
+        
+        left: 10px;
+        top: 120px;
+    }
+    
 }
 
 
-#shadowface, #shadowface1 {
-    width: 20px;
-    display: inline-block;
-    position: absolute;
-    top: 650px;
-    margin-left: 40px;
-}
 
-#shadowface1{
+
+
+
+
+
+
+
+/*---6    media query max740and min641*/
+
+
+@media only screen and (max-width: 740px)and (min-width:641px) {
+    body{
+        background-color: orange;
+    }
+    .profile {
+        width: 90px;
+    }
+    
+    .about,.skills, .strength{
+        position: relative;
+        display: inline;
+        color: white;
+        border:  white;
+        border-style: outset;
+        
+        border-radius: 2em;
+        padding: 3px;
+        cursor: pointer;
+        font-size: 18px;
+        top: 30px;
+    }
+    .nameo {
+        position: relative;
+        left: 2px;
+        top: 120px;
+        margin-left: 5%;
+        color: white;
+        
+        
+    }
+    
+    .hi{
+        font-size: 40px;
+       font-family: Pacifico, cursive;
+        color: white;
+       
+    }
+    
+    .wrap {
+    position: relative;
+    font-family: Pacifico, cursive;
+    top: 110px;
+    left: 20px;
+    font-size: 23px;
+    color: grey;
+    margin-left: 3px;
+    margin-right: 20px;
+    }
+    .wrap2 {
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .lapo {
+    position: relative;
+    display: inline;
+    width: 600px;
+    height: 800px;
     left: 40px;
     
 }
+    .hey {
+        position: absolute;
+        display: inline-block;
+        top: 15px;
+        left: 140px;
+        
+    }
+    .tablet {
+        position: absolute;
+        display: inline-block;
+        width: 560px;
+        
+        left: 30px;
+        top: 120px;
+    }
+   
+}
+
+/*--7    --max840 and min741------*/
+@media only screen and (max-width: 840px)and (min-width:741px) {
+    body{
+        background-color: red;
+    }
+    .profile{
+        top: 35px;
+        width: 80px;
+    }
+     .nameo {
+        position: relative;
+        left: 2px;
+        top: 120px;
+        margin-left: 5%;
+        color: white;
+        
+        
+    }
+    
+    .hi{
+        font-size: 40px;
+       font-family: Pacifico, cursive;
+        color: white;
+       
+    }
+    
+    .wrap {
+    position: relative;
+    font-family: Pacifico, cursive;
+    top: 110px;
+    left: 20px;
+    font-size: 23px;
+    color: grey;
+    margin-left: 3px;
+    margin-right: 20px;
+    }
+    .wrap2 {
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .lapo {
+    position: relative;
+    display: inline;
+    width: 600px;
+    height: 800px;
+    left: 40px;
+    
+}
+    .hey {
+        position: absolute;
+        display: inline-block;
+        top: 90px;
+        left: 180px;
+    }
+    
+    .tablet {
+        position: absolute;
+        display: inline-block;
+        width: 735px;
+        top: 220px;
+        
+    }
+
+}
+
+/*--8    max1260 and min 841*/
+
+@media only screen and (max-width: 1260px)and (min-width:841px) {
+    body{
+        background-color: black;
+    }
+    
+    .profile{
+        width: 110px;
+    }
+.nameo {
+        position: relative;
+        left: 2px;
+        top: 120px;
+        margin-left: 5%;
+        color: white;
+        
+        
+    }
+    
+    .hi{
+        font-size: 40px;
+       font-family: Pacifico, cursive;
+        color: white;
+       
+    }
+    
+    .wrap {
+    position: relative;
+    font-family: Pacifico, cursive;
+    top: 110px;
+    left: 20px;
+    font-size: 23px;
+    color: grey;
+    margin-left: 3px;
+    margin-right: 20px;
+    }
+    .wrap2 {
+        font-family: Pacifico, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .lapo {
+    position: relative;
+    display: inline;
+    width: 700px;
+    height: 800px;
+    left: 10%;
+    
+}
+    
+    .hey {
+        position: absolute;
+        display: inline-block;
+        top: 45px;
+    }
+    .tablet {
+        position: absolute;
+        display: inline-block;
+        width: 800px;
+        top: 150px;
+        left: 2%;
+        right: 1%;
+    }
+    
+    
+}
+
+/*--9   max 1261*/
+@media only screen and (min-width: 1261px)  {
+    body{
+        background-color: darkblue;
+    }
+    
+   
+    .hey {
+        position: absolute;
+        display: inline-block;
+        top: 52px;
+    }
+    .pc {
+        position: absolute;
+        display: inline-block;
+        width: 1200px;
+        top: 190px;
+        left: 1%;
+        
+    }
+        
+        
+   
+}
 
 
 
 
+
+
+
+
+/*landscape mode*/
+/*---galaxys5------ mobiles----640-------------360--------*/
+
+
+@media screen and (device-width: 640px) and (device-height: 360px) {
+    .profile {
+        display: none;
+    }
+    
+}
+
+/*iphone5-------568   320  */
+
+@media screen and (device-width: 568px) and (device-height: 320px) {
+    
+    .profile {
+        display: none;
+    }
+    
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*----samsung galaxy5  360      640-------- */
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    
+    .facebook, .github, .quora {
+        position: absolute;
+        display: inline-block;
+        top: 300px;
+        left: 90px;
+        width: 60px;
+        height: 60px;
+        background-color: rgba(255, 0, 0, 0);
+        z-index: 1000001;
+        cursor: pointer;
+    }
+    
+    .github {
+        top: 400px;
+    }
+    .quora{
+        top: 500px;
+    }
+    
+    .ggmail, .whatsapp, .twitter {
+      position: absolute;
+      display: inline-block;
+        width: 60px;
+        height: 60px;
+        top: 300px;
+        z-index: 1000001;
+        background-color: rgba(0, 128, 0, 0);
+        left: 200px;
+        cursor: pointer;
+    }
+    
+    .whatsapp {
+        top: 400px;
+        
+    }
+    .twitter {
+        top: 500px;
+    }
+}
 
 
