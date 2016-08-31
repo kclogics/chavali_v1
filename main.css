@@ -397,10 +397,7 @@ body {
 
 
 @media only screen and (max-width: 340px) and (min-width: 240px) {
-    body {
-      background-color: lightblue;
-       
-    }
+    
     .menu {
         position: fixed;
         display: inline-block;
@@ -644,10 +641,7 @@ body {
 /*----------------media query 2----- max420 and min 340-----------------------------------------------------------*/
 
 @media only screen and (max-width: 420px) and (min-width:340px) {
-    body {
-      background-color: violet;
-       
-    }
+    
     
     .menu {
         position: absolute;
@@ -885,10 +879,7 @@ body {
 /*-----media quer 3-----max520 and min359------*/
 
 @media only screen and (max-width: 520px) and (min-width:420px) {
-    body {
-      background-color: indigo;
-       
-    }
+    
     
     .menu {
         position: absolute;
@@ -1132,9 +1123,7 @@ body {
 /*.....4    ..580px--max580 and min 512----  */
 
 @media only screen and (max-width: 580px)and (min-width:521px) {
-    body{
-        background-color: blue;
-    }
+    
         
     .menu {
         display: none;
@@ -1276,9 +1265,7 @@ body {
 /*---5  -- media quer max640---min581*/
 
 @media only screen and (max-width: 640px)and (min-width:581px) {
-    body{
-        background-color: green;
-    }
+   
     .menu {
         display: none;
     }
@@ -1479,9 +1466,7 @@ body {
 
 
 @media only screen and (max-width: 740px)and (min-width:641px) {
-    body{
-        background-color: orange;
-    }
+   
     
     .menu ,.mailmeo, .emailo{
         display: none;
@@ -1580,9 +1565,7 @@ body {
 
 /*--7    --max840 and min741------*/
 @media only screen and (max-width: 840px)and (min-width:741px) {
-    body{
-        background-color: red;
-    }
+   
     
     .mailmeo, .emailo {
         display: none;
@@ -1664,9 +1647,7 @@ body {
 /*--8    max1260 and min 841*/
 
 @media only screen and (max-width: 1260px)and (min-width:841px) {
-    body{
-        background-color: black;
-    }
+   
     .mailmeo, .emailo {
         display: none;
     }
@@ -1739,9 +1720,7 @@ body {
 
 /*--9   max 1261*/
 @media only screen and (min-width: 1261px)  {
-    body{
-        background-color: darkblue;
-    }
+   
     
     .mailmeo, .emailo {
         display: none;
