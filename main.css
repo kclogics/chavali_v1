@@ -97,7 +97,6 @@ body {
     border-style: outset;
     border-width: thick;
     border-radius: 5em;
-
     padding: 5px;
     cursor: pointer;
 }
@@ -375,7 +374,7 @@ body {
 /*----------------media query 1----- max340 and min 240-----------------------------------------------------------*/
 
 
-@media only screen and (max-width: 340px) and (min-width: 240px) {
+@media screen and (max-width: 340px) and (min-width: 240px) {
     
     .menu {
         position: fixed;
@@ -536,6 +535,8 @@ body {
         color: white;
         
     }
+    
+    
     .mailmeo {
         font-family: sans-serif;
         text-decoration: underline;
@@ -544,6 +545,7 @@ body {
     .emailo {
         top: 120px;
     }
+    
     
     
     
@@ -606,7 +608,7 @@ body {
         position: absolute;
         display: inline-block;
         width: 190px;
-        top: 190px;
+        top: 200px;
         left: 20px;
     }
     
@@ -619,7 +621,7 @@ body {
 
 /*----------------media query 2----- max420 and min 340-----------------------------------------------------------*/
 
-@media only screen and (max-width: 420px) and (min-width:340px) {
+@media  screen and (max-width: 420px) and (min-width:340px) {
     
     
     .menu {
@@ -857,7 +859,7 @@ body {
 
 /*-----media quer 3-----max520 and min359------*/
 
-@media only screen and (max-width: 520px) and (min-width:420px) {
+@media screen and (max-width: 520px) and (min-width:420px) {
     
     
     .menu {
@@ -1101,7 +1103,7 @@ body {
 
 /*.....4    ..580px--max580 and min 512----  */
 
-@media only screen and (max-width: 580px)and (min-width:521px) {
+@media screen and (max-width: 580px)and (min-width:521px) {
     
         
     .menu {
@@ -1243,7 +1245,7 @@ body {
 
 /*---5  -- media quer max640---min581*/
 
-@media only screen and (max-width: 640px)and (min-width:581px) {
+@media  screen and (max-width: 640px)and (min-width:581px) {
    
     .menu {
         display: none;
@@ -1444,7 +1446,7 @@ body {
 /*---6    media query max740and min641*/
 
 
-@media only screen and (max-width: 740px)and (min-width:641px) {
+@media  screen and (max-width: 740px)and (min-width:641px) {
    
     
     .menu ,.mailmeo, .emailo{
@@ -1543,7 +1545,7 @@ body {
 }
 
 /*--7    --max840 and min741------*/
-@media only screen and (max-width: 840px)and (min-width:741px) {
+@media screen and (max-width: 840px)and (min-width:741px) {
    
     
     .mailmeo, .emailo {
@@ -1625,7 +1627,7 @@ body {
 
 /*--8    max1260 and min 841*/
 
-@media only screen and (max-width: 1260px)and (min-width:841px) {
+@media  screen and (max-width: 1260px)and (min-width:841px) {
    
     .mailmeo, .emailo {
         display: none;
@@ -1698,7 +1700,7 @@ body {
 }
 
 /*--9   max 1261*/
-@media only screen and (min-width: 1261px)  {
+@media  screen and (min-width: 1261px)  {
    
     
     .mailmeo, .emailo {
