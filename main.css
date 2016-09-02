@@ -19,6 +19,16 @@ body {
     display: none;
 }
 
+.infofor, .infofor1 {
+    position: absolute;
+    display: inline-block;
+    top: 740px;
+    left: 50px;
+}
+.infofor1 {
+    top: 760px;
+}
+
 
 /*----z-index ----- */
 
@@ -613,6 +623,7 @@ body {
     }
     
     
+    
 }
 
 
@@ -854,6 +865,8 @@ body {
         left: 50px;
     }
     
+    
+    
 }
 
 
@@ -871,6 +884,7 @@ body {
         cursor: pointer;
     }
     
+   
     .about, .skills, .strength,   .lapo, .hey, .mail , .cover{
         display: none;
     }
@@ -1117,6 +1131,10 @@ body {
        display: none;
         
     }
+    
+    .infofor, .infofor1 {
+        display: none;
+    }
    
     
      
@@ -1255,6 +1273,10 @@ body {
         display: none;
     }
     .mailmeo, .emailo  {
+        display: none;
+    }
+    
+    .infofor, .infofor1 {
         display: none;
     }
      
@@ -1452,6 +1474,11 @@ body {
     .menu ,.mailmeo, .emailo{
         display: none;
     }
+    
+     .infofor, .infofor1 {
+        display: none;
+    }
+    
     .intro {
         
     }
@@ -1556,6 +1583,10 @@ body {
         display: none;
     }
     
+     .infofor, .infofor1 {
+        display: none;
+    }
+    
     .profile{
         top: 35px;
         width: 80px;
@@ -1635,6 +1666,11 @@ body {
     .menu {
         display: none;
     }
+    
+     .infofor, .infofor1 {
+        display: none;
+    }
+    
     .profile{
         width: 110px;
     }
@@ -1707,6 +1743,10 @@ body {
         display: none;
     }
     .menu {
+        display: none;
+    }
+    
+     .infofor, .infofor1 {
         display: none;
     }
    
