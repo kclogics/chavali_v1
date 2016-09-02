@@ -48,6 +48,11 @@ body {
     z-index: 1000;
 }
 
+.myskills {
+        position: relative;
+        z-index: 200;
+    }
+
 
 
 .nameo {
@@ -1575,6 +1580,9 @@ body {
 @media screen and (max-width: 840px)and (min-width:741px) {
    
     
+    
+    
+    
     .mailmeo, .emailo {
         display: none;
     }
@@ -1628,7 +1636,9 @@ body {
     
     .myskills {
         position: relative;
-        z-index: 600;
+        display: inline-block;
+      
+        
     }
     
     .lapo {
@@ -1763,6 +1773,10 @@ body {
         left: 1%;
         
     }
+    .myskills {
+        position: relative;
+        z-index: 200;
+    }
         
         
    
@@ -1783,6 +1797,7 @@ body {
     .profile {
         display: none;
     }
+    
     
 }
 
